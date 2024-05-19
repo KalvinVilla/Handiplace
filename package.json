@@ -28,7 +28,7 @@
     "#abilities/*": "./app/abilities/*.js",
     "#database/*": "./database/*.js",
     "#tests/*": "./tests/*.js",
-    "#start/*": "./start/*.js",
+    "#boot/*": "./boot/*.js",
     "#config/*": "./config/*.js"
   },
   "devDependencies": {
@@ -51,6 +51,7 @@
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
+    "unocss": "^0.60.2",
     "vite": "^5.2.11"
   },
   "dependencies": {

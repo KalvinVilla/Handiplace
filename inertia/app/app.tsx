@@ -1,4 +1,4 @@
-import '../css/app.css';
+import 'virtual:uno.css'
 import { hydrateRoot } from 'react-dom/client'
 import { createInertiaApp } from '@inertiajs/react';
 import { resolvePageComponent } from '@adonisjs/inertia/helpers'
