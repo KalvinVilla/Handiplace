@@ -8,8 +8,13 @@ const authConfig = defineConfig({
     web: sessionGuard({
       useRememberMeTokens: false,
       provider: sessionUserProvider({
-        model: () => import('#models/user')
-      }),
+        model: async () => {
+         const { User } = await import('#auth/models/user')
+         return {
+          default: User
+         }
+        }
+        }),
     }),
   },
 })
