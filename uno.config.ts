@@ -7,12 +7,10 @@ import { defineConfig } from 'unocss'
 export default defineConfig({
   presets: [presetWind4(), presetTypography(), presetAttributify(), presetIcons()],
   theme: {
-    extend: {
-      fontSize: {
-        'normal': '1rem', // text-normal
-        'large': '1.25rem', // text-large
-        'x-large': '1.5rem', // text-x-large
-      },
+    fontSize: {
+      'normal': '1rem',
+      'large': '1.1rem',
+      'x-large': '1.25rem',
     },
     colors: {
       primary: {

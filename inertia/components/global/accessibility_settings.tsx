@@ -75,7 +75,7 @@ export default function AccessibilitySettings({
               >
                 <option value="normal">Normale</option>
                 <option value="large">Grande</option>
-                {/* <option value="x-large">Très grande</option> */}
+                <option value="x-large">Très grande</option>
               </select>
             </div>
 
