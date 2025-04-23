@@ -1,9 +1,12 @@
-import type { HttpContext } from "@adonisjs/core/http";
+import type { HttpContext } from '@adonisjs/core/http'
+import { Place } from '../data/place.js'
 
 export default class LandingController {
+  render({ inertia }: HttpContext) {
+    const top = Place.getTopPlaces(0, 5)
 
-    render({inertia}: HttpContext) {
-        return inertia.render('landing')
-    }
-
+    return inertia.render('landing', {
+      topPlaces: top,
+    })
+  }
 }

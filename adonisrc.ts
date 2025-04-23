@@ -37,7 +37,8 @@ export default defineConfig({
     () => import('@adonisjs/cors/cors_provider'),
     () => import('@adonisjs/lucid/database_provider'),
     () => import('@adonisjs/auth/auth_provider'),
-    () => import('@adonisjs/inertia/inertia_provider')
+    () => import('@adonisjs/inertia/inertia_provider'),
+    () => import('@adonisjs/i18n/i18n_provider')
   ],
 
   /*
@@ -48,7 +49,7 @@ export default defineConfig({
   | List of modules to import before starting the application.
   |
   */
-  preloads: [() => import('#boot/routes'), () => import('#boot/kernel')],
+  preloads: [() => import('#start/routes'), () => import('#start/kernel')],
 
   /*
   |--------------------------------------------------------------------------
@@ -93,6 +94,10 @@ export default defineConfig({
       pattern: 'public/**',
       reloadServer: false,
     },
+    {
+      pattern: 'resources/lang/**/*.{json,yaml,yml}',
+      reloadServer: false,
+    }
   ],
 
   assetsBundler: false,

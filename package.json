@@ -19,9 +19,12 @@
     "#providers/*": "./providers/*.js",
     "#database/*": "./database/*.js",
     "#tests/*": "./tests/*.js",
-    "#boot/*": "./boot/*.js",
+    "#fragments/*": "./src/fragments/*.js",
+    "#i18n/*": "./src/i18n/*.js",
+    "#start/*": "./start/*.js",
     "#config/*": "./config/*.js",
     "#admin/*": "./src/admin/*.js",
+    "#places/*": "./src/places/*.js",
     "#auth/*": "./src/auth/*.js",
     "#pages/*": "./src/pages/*.js",
     "#core/*": "./src/core/*.js"
@@ -35,10 +38,12 @@
     "@japa/plugin-adonisjs": "^3.0.1",
     "@japa/runner": "^3.1.4",
     "@swc/core": "^1.5.3",
+    "@types/leaflet": "^1.9.17",
     "@types/luxon": "^3.4.2",
     "@types/node": "^20.12.10",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
+    "@unocss/preset-wind4": "^66.1.0-beta.12",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "hot-hook": "^0.2.5",
@@ -46,7 +51,7 @@
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
-    "unocss": "^0.60.2",
+    "unocss": "^66.1.0-beta.12",
     "vite": "^5.2.11"
   },
   "dependencies": {
@@ -67,6 +72,8 @@
     "pg": "^8.11.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^4.2.1",
     "reflect-metadata": "^0.2.2"
   },
   "hotHook": {

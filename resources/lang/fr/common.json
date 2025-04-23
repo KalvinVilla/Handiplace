@@ -1,0 +1,13 @@
+{
+  "landing_description": "Bienvenue sur l'application de badge Evian ! Simplifiez votre processus de demande de badge avec notre plateforme conviviale conçue spécialement pour vous.",
+  "not_found": "404 non trouvé",
+  "create": "Créer",
+  "navigation_new_request": "Nouvelle demande",
+  "navigation_my_request": "Mes demandes",
+  "navigation_manage_request": "Gestion des demandes",
+  "navigation_profile": "Mon profil",
+  "navigation_logout": "Déconnexion",
+  "language_settings": "Paramètres de langue",
+  "theme_settings": "Paramètres du thème",
+  "theme_switch": "Changer de thème"
+}

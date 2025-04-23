@@ -1,0 +1,13 @@
+{
+  "landing_description": "Welcome to Evian's employee badge application! Simplify your badge request process with our user-friendly platform designed especially for you.",
+  "not_found": "404 not found",
+  "create": "Create",
+  "navigation_new_request": "New request",
+  "navigation_my_request": "My requests",
+  "navigation_manage_request": "Request management",
+  "navigation_profile": "My profile",
+  "navigation_logout": "Logout",
+  "language_settings": "Language settings",
+  "theme_settings": "Theme settings",
+  "theme_switch": "Switch theme"
+} 
